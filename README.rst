@@ -5,7 +5,7 @@ py-de-familia
 
     <p align="center">
         <a href="#readme">
-            <img alt="Loguru logo" src="docs/source/_static/logo.png">
+            <img alt="Loguru logo" src="docs/source/_static/logo.jpg">
         </a>
     </p>
 
