@@ -2,10 +2,9 @@
 name = "py-de-familia"
 version = "0.1.0"
 description = "CLI deliciosa"
-authors = ["augustoliks <carlos.santos110@fatec.sp.gov.br>"]
 homepage = "https://github.com/augustoliks/py-de-familia"
-documentation = ""
-readme = "README.rst"
+authors = ["augustoliks <carlos.neto.dev@gmail.com>"]
+#readme = "README.rst"
 license = "Apache-2.0"
 packages = [
     { include="py-de-familia", from="." },
