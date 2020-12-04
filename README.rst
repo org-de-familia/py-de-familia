@@ -1,3 +1,6 @@
+[![PyPI version](https://badge.fury.io/py/gelfguru.svg)](https://badge.fury.io/py/py-de-familia)
+
+
 py-de-familia
 =============
 

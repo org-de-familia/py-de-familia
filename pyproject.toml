@@ -3,11 +3,23 @@ name = "py-de-familia"
 version = "0.1.0"
 description = "CLI deliciosa"
 authors = ["augustoliks <carlos.santos110@fatec.sp.gov.br>"]
+homepage = "https://github.com/augustoliks/py-de-familia"
+documentation = ""
+readme = "README.rst"
+license = "Apache-2.0"
+packages = [
+    { include="py-de-familia", from="." },
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+click = "^7.1.2"
+playsound = "^1.2.2"
+vext = "^0.7.4"
+"vext.gi" = "^0.7.4"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.scripts]
+py-de-familia = "py_de_familia:main"
 
 [build-system]
 requires = ["poetry>=0.12"]
