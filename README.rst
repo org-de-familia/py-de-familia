@@ -1,4 +1,4 @@
-[![PyPI version](https://badge.fury.io/py/gelfguru.svg)](https://badge.fury.io/py/py-de-familia)
+[![PyPI version]()]()
 
 
 py-de-familia
@@ -10,6 +10,10 @@ py-de-familia
         <a href="#readme">
             <img alt="Loguru logo" src="docs/source/_static/logo.jpg">
         </a>
+    </p>
+
+    <p align="center">
+        <a href="https://badge.fury.io/py/py-de-familia"><img alt="Pypi version" src="https://badge.fury.io/py/py-de-familia.svg"></a>
     </p>
 
 =========

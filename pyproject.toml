@@ -6,9 +6,9 @@ homepage = "https://github.com/augustoliks/py-de-familia"
 authors = ["augustoliks <carlos.neto.dev@gmail.com>"]
 #readme = "README.rst"
 license = "Apache-2.0"
-packages = [
-    { include="py-de-familia", from="." },
-]
+#packages = [
+#    { include="py-de-familia", from="." },
+#]
 
 [tool.poetry.dependencies]
 python = "^3.7"
@@ -18,7 +18,7 @@ vext = "^0.7.4"
 "vext.gi" = "^0.7.4"
 
 [tool.poetry.scripts]
-py-de-familia = "py_de_familia:main"
+py-de-familia = "py_de_familia.clidefamilia:main"
 
 [build-system]
 requires = ["poetry>=0.12"]
