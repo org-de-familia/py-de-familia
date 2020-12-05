@@ -27,6 +27,12 @@ Nela é possível ouvir diretamente do seu terminal, as frases relexantes do mes
         </a>
     </p>
 
+
+Features
+========
+
+TODO
+
 Instalação
 ==========
 
@@ -45,6 +51,6 @@ TODO
 Licensa
 =======
 
-``py-de-familia`` é uma biblioteca open-source.
+``py-de-familia`` é uma biblioteca open-source. Todo o desenvolvimento foi feito sobre a Licença **Apaiche de Família**.
 
-Todo o desenvolvimento foi feito sobre a licensa **Apaiche de Família**, que foi criada nas tribo de desenvolvimento dos desenvolvedores de Papacú, situada nos arredores da cidade de Cú Pequeno, visinha de Pau Grande.
+A licença **Apaiche de Família**, é uma licença rígida, que atualmente só macho mesmo que usa. Esta permite apenas os desenvolvedores de família, desenvolver sorrindo, o que os desenvolvedores comuns desenvolvem chorando. Foi criada nas bandas de Software dos Desenvolvedores da tribo dos **Papacús**. Esta tribo é situada nos arredores da cidade de Cú Pequeno, visinha de Pau Grande.
