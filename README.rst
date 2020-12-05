@@ -51,6 +51,13 @@ TODO
 Licensa
 =======
 
-``py-de-familia`` é uma biblioteca open-source. Todo o desenvolvimento foi feito sobre a Licença **Apaiche de Família**.
+``py-de-familia`` é uma biblioteca *open-source*. Todo o desenvolvimento foi feito sobre a Licença **Apaiche de Família 2.0**.
 
-A licença **Apaiche de Família**, é uma licença rígida, que atualmente só macho mesmo que usa. Esta permite apenas os desenvolvedores de família fazerem sorrindo, o que os desenvolvedores comuns fazem chorando. Foi criada nas bandas de Software dos Desenvolvedores da tribo dos **Papacús**. Esta tribo é situada nos arredores da cidade de Cú Pequeno, visinha de Pau Grande.
+Esta licensa tem como restrição, a colaboração restrita dos Desenvolvedores atuantes no Projeto. É aceito apenas:
+
+    * Héteros;
+    * Machos;
+    * Ursos; e
+    * Lolitos.
+
+A licença é baseada nas licenças *papacu* e *cu-que-pau*.
