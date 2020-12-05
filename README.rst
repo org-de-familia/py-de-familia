@@ -45,4 +45,6 @@ TODO
 Licensa
 =======
 
-``py-de-familia`` é uma biblioteca open-source. A biblioteca foi toda desenvolvida sobre a licensa **Apaiche de Família**, que foi criada nas tribo de desenvolvimento dos desenvolvedores de Papacú, situada nos arredores da cidade de Cú Pequeno, visinha de Pau Grande.
+``py-de-familia`` é uma biblioteca open-source.
+
+Todo o desenvolvimento foi feito sobre a licensa **Apaiche de Família**, que foi criada nas tribo de desenvolvimento dos desenvolvedores de Papacú, situada nos arredores da cidade de Cú Pequeno, visinha de Pau Grande.
