@@ -55,9 +55,9 @@ Licensa
 
 Esta licensa tem como restrição, a colaboração restrita dos Desenvolvedores atuantes no Projeto. É aceito apenas:
 
-    * Héteros;
-    * Machos;
-    * Ursos; e
-    * Lolitos.
+* Héteros;
+* Machos;
+* Ursos; e
+* Lolitos.
 
 A licença é baseada nas licenças **papacú** e **cuquépau**, criadas respectivamente nas cidades de *Cu Pequeno* e *Pau Grande*, ambas localizadas no interior da Bahia.
