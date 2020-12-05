@@ -26,3 +26,23 @@ Nela é possível ouvir diretamente do seu terminal, as frases relexantes do mes
             <img alt="Loguru logo" src="docs/source/_static/jailson.gif">
         </a>
     </p>
+
+Instalação
+==========
+
+TODO
+
+Execução
+========
+
+TODO
+
+Como Contribuir
+===============
+
+TODO
+
+Licensa
+=======
+
+``py-de-familia`` é uma biblioteca open-source. A biblioteca foi toda desenvolvida sobre a licensa **Apaiche de Família**, que foi criada nas tribo de desenvolvimento dos desenvolvedores de Papacú, situada nos arredores da cidade de Cú Pequeno, visinha de Pau Grande.
