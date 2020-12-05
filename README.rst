@@ -60,4 +60,4 @@ Esta licensa tem como restrição, a colaboração restrita dos Desenvolvedores 
     * Ursos; e
     * Lolitos.
 
-A licença é baseada nas licenças *papacu* e *cu-que-pau*.
+A licença é baseada nas licenças **papacú** e **cuquépau**, criadas respectivamente nas cidades de *Cu Pequeno* e *Pau Grande*, ambas localizadas no interior da Bahia.
