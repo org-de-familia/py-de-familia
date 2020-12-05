@@ -1,50 +1,118 @@
+"""o código é pequeninho mais é garantido"""
+
 from playsound import playsound
 import click
 from pathlib import Path
+from typing import (
+    Text,
+    List
+)
 
 
-ASSETS_PATH = 'assets'
-assets = Path(ASSETS_PATH)
+class ExcessaoDeFamilia(RuntimeError):
+    pass
 
 
-def discovery_persons_of_family() -> list:
-    persons = []
-    for person in assets.iterdir():
-        persons.append(person.name)
-    return persons
+ativos_de_familia = Path(
+    Path(__file__).parent,
+    'ativos-de-familia'
+)
 
 
-def discovery_phrases_of_person(person) -> list:
-    phrases = []
-    for phrase in Path(assets, person).iterdir():
-        phrases.append(phrase.stem)
-    return phrases
+def listar_personagens_de_familia() -> List[Text]:
+    personagens_de_familia = []
+    for personagem_de_familia in ativos_de_familia.iterdir():
+        personagens_de_familia.append(personagem_de_familia.name)
+    return personagens_de_familia
+
+
+def obter_audio_de_familia(personagem_de_familia, frase_de_familia) -> str:
+    frase_de_familia = Path(
+        ativos_de_familia,
+        personagem_de_familia,
+        frase_de_familia
+    ).with_suffix('.mp3')
+
+    return str(frase_de_familia.absolute())
+
+
+def obter_frases_de_familia(personagem_de_familia):
+    frases_de_familia = []
+
+    diretorio_de_familia = Path(
+        ativos_de_familia,
+        personagem_de_familia
+    )
+
+    for frase_de_familia in diretorio_de_familia.iterdir():
+        frases_de_familia.append(frase_de_familia.stem)
+
+    return frases_de_familia
+
+
+def autocompletar_personagem_de_familia(ctx, args, incomplete) -> List[Text]:
+    personagens_de_familia = listar_personagens_de_familia()
+    possiveis_personagens_de_familia = []
+
+    for personagem_de_familia in personagens_de_familia:
+        if incomplete in personagem_de_familia:
+            possiveis_personagens_de_familia.append(personagem_de_familia)
+
+    return possiveis_personagens_de_familia
+
+
+def autocompletar_frase_de_familia(ctx, args, incomplete) -> List[Text]:
+    personagens_de_familia = listar_personagens_de_familia()
+
+    if args[1] in personagens_de_familia:
+        personagens_de_familia = args[1]
+    else:
+        raise ExcessaoDeFamilia('nao identificado personagem de familia')
+
+    frases_de_familia = obter_frases_de_familia(personagens_de_familia)
+
+    if not incomplete:
+        possiveis_frases_de_familia = frases_de_familia
+    else:
+        possiveis_frases_de_familia = []
+        for frase_de_familia in frases_de_familia:
+            if incomplete in frase_de_familia:
+                possiveis_frases_de_familia.append(frase_de_familia)
+
+    return possiveis_frases_de_familia
+
+
+def listar_frases_de_familia(personagem_de_familia) -> List[Text]:
+    frases_de_familia = []
+    diretorio_de_familia = Path(ativos_de_familia, personagem_de_familia)
+    for frase_de_familia in diretorio_de_familia.iterdir():
+        frases_de_familia.append(frase_de_familia.stem)
+    return frases_de_familia
 
 
 @click.command()
 @click.option(
-    '--personagem',
     '-p',
+    '--personagem-de-familia',
     default='jailson',
-    help='Nome do Ator',
-    type=click.Choice(discovery_persons_of_family(), case_sensitive=False)
+    help='Personagem de Família',
+    type=click.Choice(listar_personagens_de_familia()),
+    autocompletion=autocompletar_personagem_de_familia
 )
 @click.option(
-    '--frase',
     '-f',
+    '--frase-de-familia',
     default='ai',
-    help='Frase Deliciosa',
-    type=click.Choice(discovery_phrases_of_person('jailson'))
+    help='Frase de Família',
+    autocompletion=autocompletar_frase_de_familia
 )
-def run(personagem, frase):
-    sound_path = Path(assets, personagem, frase).with_suffix('.mp3')
-    print(sound_path)
-    playsound(str(sound_path.absolute()))
-
-
-def main():
-    print('neto')
+def entrypoint_de_familia(personagem_de_familia, frase_de_familia):
+    audio = obter_audio_de_familia(
+        personagem_de_familia,
+        frase_de_familia
+    )
+    playsound(audio)
 
 
 if __name__ == '__main__':
-    run()
+    entrypoint_de_familia()

@@ -1,8 +1,5 @@
-[![PyPI version]()]()
-
-
-py-de-familia
-=============
+py-de-familia, a biblioteca deliciosa (só macho que usa)
+========================================================
 
 .. raw:: html
 
