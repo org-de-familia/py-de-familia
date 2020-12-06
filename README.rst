@@ -24,13 +24,13 @@ Atualmente, é possível apreciar os aúdios relexantes dos seguintes personagen
 +-------------------------------+----------------------------------+--------------------------------------------------------+
 | Personagem                    | Filmes                           | Biografia                                              |
 +===============================+==================================+========================================================+
-| Boliviano de Família          | Princesa Demacol e o Boliviano   | http://desciclo.pedia.ws/wiki/Boliviano                |
-+-------------------------------+----------------------------------+--------------------------------------------------------+
 | Jailson Mendes de Família     | Trilogia Pai de Família          | https://desciclopedia.org/wiki/Pai_de_Fam%C3%ADlia     |
 +-------------------------------+----------------------------------+--------------------------------------------------------+
 | Kauan Desu de Família         | Trilogia Pai de Família          | https://desciclopedia.org/wiki/Kauan_Desu              |
 +-------------------------------+----------------------------------+--------------------------------------------------------+
 | Paulo Guina de Família        | Trilogia Pai de Família          | https://desciclopedia.org/wiki/Paulo_Guina             |
++-------------------------------+----------------------------------+--------------------------------------------------------+
+| Boliviano de Família          | Princesa Demacol e o Boliviano   | http://desciclo.pedia.ws/wiki/Boliviano                |
 +-------------------------------+----------------------------------+--------------------------------------------------------+
 
 * Features TODO:
