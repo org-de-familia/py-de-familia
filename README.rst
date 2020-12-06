@@ -1,6 +1,5 @@
 .. image:: https://github.com/augustoliks/py-de-familia/blob/main/docs/source/_static/logo-with-desc.png?raw=true
 
-
 .. image:: https://badge.fury.io/py/py-de-familia.svg
     :target: https://badge.fury.io/py/py-de-familia
 
@@ -109,6 +108,6 @@ Esta é baseada nas licenças **PAPAKU** e **KUKÉPAU**, criadas respectivamente
 Contribuições de Família
 ========================
 
-Para contribuir para com o código fonte, é necessário seguir o Código de Conduta deste projeto.
+Para contribuir com o código fonte, é necessário seguir o Código de Conduta deste projeto.
 
 Para adicionar mais audios relexantes, basta utilizar o ``Makefile`` de familia. Este tem seções que utilizam os utilitários ``youtube-dl`` e ``ffmpeg`` para baixar e converter os audios respectivamente.

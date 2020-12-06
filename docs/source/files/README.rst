@@ -1,32 +1,22 @@
-.. raw:: html
+.. image:: https://github.com/augustoliks/py-de-familia/blob/main/docs/source/_static/logo-with-desc.png?raw=true
 
-    <p align="center">
-        <a href="#readme">
-            <img alt="py-de-familia logo" src="https://github.com/augustoliks/py-de-familia/blob/main/docs/source/_static/logo-with-desc.png?raw=true">
-        </a>
-    </p>
+.. image:: https://badge.fury.io/py/py-de-familia.svg
+    :target: https://badge.fury.io/py/py-de-familia
 
-    <p align="center">
-        <a href="https://badge.fury.io/py/py-de-familia">
-            <img src="https://badge.fury.io/py/py-de-familia.svg" alt="PyPI version" height="18">
-        </a>
+.. image:: https://readthedocs.org/projects/py-de-familia/badge/?version=latest
+    :target: https://py-de-familia.readthedocs.io/en/latest/?badge=latest
 
-        <a href='https://py-de-familia.readthedocs.io/en/latest/?badge=latest'>
-            <img src='https://readthedocs.org/projects/py-de-familia/badge/?version=latest' alt='Documentation Status' />
-        </a>
-        <a href="https://www.codacy.com/gh/augustoliks/py-de-familia/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=augustoliks/py-de-familia&amp;utm_campaign=Badge_Grade">
-            <img src="https://app.codacy.com/project/badge/Grade/2f6923d397794cec937347e9c792d1dc"/>
-        </a>
-        <a href="https://travis-ci.com/github/augustoliks/py-de-familia">
-            <img src="https://travis-ci.com/augustoliks/py-de-familia.svg?branch=main"/>
-        </a>
-        <a href="https://codecov.io/gh/augustoliks/py-de-familia">
-          <img src="https://codecov.io/gh/augustoliks/py-de-familia/branch/main/graph/badge.svg?token=EHJKGJKW3T"/>
-        </a>
-        <a href="https://github.com/augustoliks/py-de-familia/blob/main/LICENSE-DE-FAMILIA">
-            <img alt="License" src="https://img.shields.io/badge/license-APAICHE--DE--FAMILIA--2.0-blue">
-        </a>
-    </p>
+.. image:: https://app.codacy.com/project/badge/Grade/2f6923d397794cec937347e9c792d1dc
+    :target: https://www.codacy.com/gh/augustoliks/py-de-familia/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=augustoliks/py-de-familia&amp;utm_campaign=Badge_Grade
+
+.. image:: https://img.shields.io/badge/license-APAICHE--DE--FAMILIA--2.0-blue
+    :target: https://github.com/augustoliks/py-de-familia/blob/main/LICENSE-DE-FAMILIA
+
+.. image:: https://codecov.io/gh/augustoliks/py-de-familia/branch/main/graph/badge.svg?token=EHJKGJKW3T
+    :target: https://codecov.io/gh/augustoliks/py-de-familia
+
+.. image:: https://travis-ci.com/augustoliks/py-de-familia.svg?branch=main
+    :target: https://travis-ci.com/github/augustoliks/py-de-familia
 
 =========
 
@@ -118,6 +108,6 @@ Esta é baseada nas licenças **PAPAKU** e **KUKÉPAU**, criadas respectivamente
 Contribuições de Família
 ========================
 
-Para contribuir para com o código fonte, é necessário seguir o Código de Conduta deste projeto.
+Para contribuir com o código fonte, é necessário seguir o Código de Conduta deste projeto.
 
 Para adicionar mais audios relexantes, basta utilizar o ``Makefile`` de familia. Este tem seções que utilizam os utilitários ``youtube-dl`` e ``ffmpeg`` para baixar e converter os audios respectivamente.
