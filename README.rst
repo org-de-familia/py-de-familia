@@ -12,6 +12,11 @@
 
 =========
 
+:: 
+
+    "É essa lib que você queria?"
+    - liks, augusto
+
 ``py-de-família`` é uma CLI deliciosa, criada no intuíto de relaxar os Programadores de Família.
 
 Nela é possível ouvir diretamente do seu terminal, as frases relexantes do mestre Jailson Mendes e de outros personagens do universo PDF. 
