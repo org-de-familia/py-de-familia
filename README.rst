@@ -20,8 +20,8 @@
 
 Nela é possível ouvir diretamente do seu terminal, as frases relexantes do mestre Jailson Mendes e de outros personagens do universo PDF. 
 
-Features
-========
+*Features* de Família
+=====================
 
 Atualmente, é possível apreciar os aúdios relexantes dos seguintes personagens de família:
 
