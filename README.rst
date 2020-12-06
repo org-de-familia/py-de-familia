@@ -106,7 +106,7 @@ Essa licença, tem como restrição, o tipo do Desenvolvedor atuante no projeto.
 * Ursos; e
 * Lolitos.
 
-A licença é baseada nas licenças **PAPAKU** e **KUKÉPAU**, criadas respectivamente nas cidades de **Cú Pequeno** e **Pau Grande**.
+Esta é baseada nas licenças **PAPAKU** e **KUKÉPAU**, criadas respectivamente nas cidades de **Cú Pequeno** e **Pau Grande**.
 
 Contribuições de Família
 ========================
