@@ -22,7 +22,7 @@
 
 ``py-de-família`` é uma CLI deliciosa, criada no intuíto de relaxar os Programadores de Família.
 
-Nela é possível ouvir diretamente do seu terminal, as frases relexantes do mestre Jailson Mendes e de outros personagens do universo PDF. 
+Nela é possível ouvir diretamente do seu terminal, as frases relexantes do mestre Jailson Mendes e de outros personagens do universo PDF.
 
 *Features* de Família
 =====================
@@ -46,7 +46,11 @@ Instalação
 
 .. code-block:: shell
 
+    # Instalação da biblioteca de familia
     $ pip3 install py-de-familia
+
+    # Habilitando o autocomplete de familia
+    $ eval "$(_PY_DE_FAMILIA_COMPLETE=source_bash py-de-familia)"
 
 Execução
 ========
@@ -82,13 +86,6 @@ Estrutura do Projeto de Família
         ├── __pycache__
         └── test_clidefamilia.py        # Testes unitários de Família, que seja pequeneninho mais que seja garantido
 
-Contribuições de Família
-========================
-
-Para contribuir para com o código fonte, é necessário seguir o Código de Conduta deste projeto.
-
-Para adicionar mais audios relexantes, basta utilizar o ``Makefile`` de familia. Este tem seções que utilizam os utilitários ``youtube-dl`` e ``ffmpeg`` para baixar e converter os audios respectivamente.
-
 Licença de Família
 ==================
 
@@ -102,3 +99,10 @@ Essa licença, tem como restrição, o tipo do Desenvolvedor atuante no o projet
 * Lolitos.
 
 A licença é baseada nas licenças **PAPAKU** e **KUKÉPAU**, criadas respectivamente nas cidades de **Cú Pequeno** e **Pau Grande**.
+
+Contribuições de Família
+========================
+
+Para contribuir para com o código fonte, é necessário seguir o Código de Conduta deste projeto.
+
+Para adicionar mais audios relexantes, basta utilizar o ``Makefile`` de familia. Este tem seções que utilizam os utilitários ``youtube-dl`` e ``ffmpeg`` para baixar e converter os audios respectivamente.
