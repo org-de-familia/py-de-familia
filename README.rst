@@ -19,7 +19,9 @@
         <a href="https://travis-ci.com/github/augustoliks/py-de-familia">
             <img src="https://travis-ci.com/augustoliks/py-de-familia.svg?branch=main"/>
         </a>
-
+        <a href="https://codecov.io/gh/augustoliks/py-de-familia">
+          <img src="https://codecov.io/gh/augustoliks/py-de-familia/branch/main/graph/badge.svg?token=EHJKGJKW3T"/>
+        </a>
         <a href="https://github.com/augustoliks/py-de-familia/blob/main/LICENSE-DE-FAMILIA">
             <img alt="License" src="https://img.shields.io/badge/license-APAICHE--DE--FAMILIA--2.0-blue">
         </a>
