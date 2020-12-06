@@ -2,7 +2,7 @@
 
     <p align="center">
         <a href="#readme">
-            <img alt="py-de-família logo" src="https://github.com/augustoliks/py-de-familia/blob/main/docs/source/_static/logo-with-desc.png?raw=true">
+            <img alt="py-de-familia logo" src="https://github.com/augustoliks/py-de-familia/blob/main/docs/source/_static/logo-with-desc.png?raw=true">
         </a>
     </p>
 
