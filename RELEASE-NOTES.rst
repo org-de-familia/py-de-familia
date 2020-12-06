@@ -1,10 +1,12 @@
-Versão: 0.1.0-1
-===============
+Versão de Família: 0.1.0-1
+==========================
 
--  Autores:
+- **Data de Família**: 06/12/2020
 
-   -  @carlos.neto - <carlos.neto.dev@gmail.com>
+- **Autores de Família**:
+   -  @augustoliks | https://github.com/augustoliks
 
--  Notas da versão:
-
-   - ...
+- **Notas de Família**:
+   - Criação da Documentação de Família;
+   - Extração dos audios de familia;
+   - Criação do Código Fonte de Família.
