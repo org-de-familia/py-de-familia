@@ -21,6 +21,6 @@ deploy:
   provider: script
   script: poetry publish -u $PYPI_USER -p $PYPI_PASS
   skip_cleanup: true
-#  on:
+  on:
 #    tags: true
-
+    branch: main
