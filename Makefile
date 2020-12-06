@@ -1,5 +1,6 @@
 get-audio-de-familia:
 	youtube-dl -x --audio-format mp3 https://www.youtube.com/watch?v=Lu5omzcRgCs&ab_channel=VETA2
+
 convert-de-familia:
 	mv *.mp3 x.mp3 | exit 0
 	ffmpeg -i x.mp3 -ss 00:00:51 -to 00:00:54 -c copy -y out.mp3
@@ -15,4 +16,4 @@ sphinx:
 test:
 	poetry build
 	poetry install
-	cd tests; poetry run pytest
+	poetry run pytest --cov=py_de_familia tests/
