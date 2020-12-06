@@ -1,6 +1,6 @@
 # testes unitários de familia
 
-import clidefamilia
+from py_de_familia import clidefamilia
 
 
 def test_listar_personagens_de_familia():
