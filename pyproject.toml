@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "py-de-familia"
-version = "0.1.1"
+version = "0.1.2"
 description = "CLI deliciosa de família"
 homepage = "https://github.com/augustoliks/py-de-familia"
 authors = ["augustoliks <carlos.neto.dev@gmail.com>"]
