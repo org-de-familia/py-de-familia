@@ -4,7 +4,7 @@
     :target: https://badge.fury.io/py/py-de-familia
 
 .. image:: https://readthedocs.org/projects/py-de-familia/badge/?version=latest
-    :target: https://py-de-familia.readthedocs.io/en/latest/?badge=latest
+    :target: https://py-de-familia.readthedocs.io/pt/latest/files
 
 .. image:: https://app.codacy.com/project/badge/Grade/2f6923d397794cec937347e9c792d1dc
     :target: https://www.codacy.com/gh/augustoliks/py-de-familia/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=augustoliks/py-de-familia&amp;utm_campaign=Badge_Grade
