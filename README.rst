@@ -19,6 +19,9 @@
         <a href="https://www.codacy.com/gh/augustoliks/py-de-familia/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=augustoliks/py-de-familia&amp;utm_campaign=Badge_Grade">
             <img src="https://app.codacy.com/project/badge/Grade/2f6923d397794cec937347e9c792d1dc"/>
         </a>
+        <a href="https://travis-ci.com/github/augustoliks/py-de-familia">
+            <img src="https://travis-ci.com/augustoliks/py-de-familia.svg?branch=main"/>
+        </a>
     </p>
 
 =========
