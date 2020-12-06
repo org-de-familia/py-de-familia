@@ -4,12 +4,11 @@ python:
   - 3.7
 
 before_install:
+  - env
   - pip install poetry
 
 install:
-  - poetry shell
   - poetry install
-  - env
 
 script:
   - poetry run pytest --cov=py_de_familia tests/
