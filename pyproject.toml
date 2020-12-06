@@ -6,7 +6,7 @@ homepage = "https://github.com/augustoliks/py-de-familia"
 authors = ["augustoliks <carlos.neto.dev@gmail.com>"]
 maintainers = ["augustoliks <carlos.neto.dev@gmail.com>"]
 readme = "README.rst"
-license = "APAICHE-DE-FAMILIA-2.0"
+#license = "APAICHE-DE-FAMILIA-2.0"
 documentation = "https://py-de-familia.readthedocs.io/en/latest/?badge=latest"
 keywords = ["cli", "relaxar", "ai", "macho"]
 classifiers = [
