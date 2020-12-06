@@ -2,16 +2,29 @@
 
     <p align="center">
         <a href="#readme">
-            <img alt="py-de-família logo" src="https://github.com/augustoliks/py-de-familia/blob/main/docs/source/_static/logo-with-desc.png?raw=true">
+            <img alt="py-de-familia logo" src="https://github.com/augustoliks/py-de-familia/blob/main/docs/source/_static/logo-with-desc.png?raw=true">
         </a>
     </p>
 
     <p align="center">
-        <a href="https://badge.fury.io/py/py-de-família">
-            <img alt="Pypi version" src="https://badge.fury.io/py/py-de-família.svg">
+        <a href="https://badge.fury.io/py/py-de-familia">
+            <img src="https://badge.fury.io/py/py-de-familia.svg" alt="PyPI version" height="18">
         </a>
+
         <a href='https://py-de-familia.readthedocs.io/en/latest/?badge=latest'>
             <img src='https://readthedocs.org/projects/py-de-familia/badge/?version=latest' alt='Documentation Status' />
+        </a>
+        <a href="https://www.codacy.com/gh/augustoliks/py-de-familia/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=augustoliks/py-de-familia&amp;utm_campaign=Badge_Grade">
+            <img src="https://app.codacy.com/project/badge/Grade/2f6923d397794cec937347e9c792d1dc"/>
+        </a>
+        <a href="https://travis-ci.com/github/augustoliks/py-de-familia">
+            <img src="https://travis-ci.com/augustoliks/py-de-familia.svg?branch=main"/>
+        </a>
+        <a href="https://codecov.io/gh/augustoliks/py-de-familia">
+          <img src="https://codecov.io/gh/augustoliks/py-de-familia/branch/main/graph/badge.svg?token=EHJKGJKW3T"/>
+        </a>
+        <a href="https://github.com/augustoliks/py-de-familia/blob/main/LICENSE-DE-FAMILIA">
+            <img alt="License" src="https://img.shields.io/badge/license-APAICHE--DE--FAMILIA--2.0-blue">
         </a>
     </p>
 
@@ -22,7 +35,9 @@
 
 ``py-de-família`` é uma CLI deliciosa, criada no intuíto de relaxar os Programadores de Família.
 
-Nela é possível ouvir diretamente do seu terminal, as frases relexantes do mestre Jailson Mendes e de outros personagens do universo PDF. 
+Nela é possível ouvir diretamente do seu terminal, as frases relexantes do mestre Jailson Mendes e de outros personagens do universo PDF.
+
+.. end-of-readme-intro
 
 *Features* de Família
 =====================
@@ -46,7 +61,11 @@ Instalação
 
 .. code-block:: shell
 
+    # Instalação da biblioteca de familia
     $ pip3 install py-de-familia
+
+    # Habilitando o autocomplete de familia
+    $ eval "$(_PY_DE_FAMILIA_COMPLETE=source_bash py-de-familia)"
 
 Execução
 ========
@@ -63,7 +82,7 @@ Estrutura do Projeto de Família
     │   └── ...
     ├── LICENSE-DE-FAMILIA              # Descrição da Licença APAICHE-DE-FAMILIA-2.0
     ├── Makefile                        # Makefile de Família para extrair audios de família do youtube
-    ├── poetry.lock                     # Dependencias de Família Versionadas  
+    ├── poetry.lock                     # Dependencias de Família Versionadas
     ├── py_de_familia
     │   ├── ativos-de-familia
     │   │   ├── boliviano               # Audios do Boliviano de Família
@@ -82,23 +101,23 @@ Estrutura do Projeto de Família
         ├── __pycache__
         └── test_clidefamilia.py        # Testes unitários de Família, que seja pequeneninho mais que seja garantido
 
-Contribuições de Família
-========================
-
-Para contribuir para com o código fonte, é necessário seguir o Código de Conduta deste projeto.
-
-Para adicionar mais audios relexantes, basta utilizar o ``Makefile`` de familia. Este tem seções que utilizam os utilitários ``youtube-dl`` e ``ffmpeg`` para baixar e converter os audios respectivamente.
-
 Licença de Família
 ==================
 
 ``py-de-família`` é uma biblioteca *open-source*. Todo o desenvolvimento foi feito sobre a Licença **APAICHE-DE-FAMILIA-2.0**.
 
-Essa licença, tem como restrição, o tipo do Desenvolvedor atuante no o projeto. É aceito apenas:
+Essa licença, tem como restrição, o tipo do Desenvolvedor atuante no projeto. É aceito apenas:
 
 * Héteros;
 * Machos;
 * Ursos; e
 * Lolitos.
 
-A licença é baseada nas licenças **PAPAKU** e **KUKÉPAU**, criadas respectivamente nas cidades de **Cú Pequeno** e **Pau Grande**.
+Esta é baseada nas licenças **PAPAKU** e **KUKÉPAU**, criadas respectivamente nas cidades de **Cú Pequeno** e **Pau Grande**.
+
+Contribuições de Família
+========================
+
+Para contribuir para com o código fonte, é necessário seguir o Código de Conduta deste projeto.
+
+Para adicionar mais audios relexantes, basta utilizar o ``Makefile`` de familia. Este tem seções que utilizam os utilitários ``youtube-dl`` e ``ffmpeg`` para baixar e converter os audios respectivamente.
