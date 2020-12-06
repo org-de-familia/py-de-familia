@@ -81,8 +81,8 @@ Estrutura do Projeto de Família
         └── test_clidefamilia.py        # Testes unitários de Família, que seja pequeneninho mais que seja garantido
 
 
-Como Contribuir Com a Família
-=============================
+Contribuições de Família
+========================
 
 Para contribuir para com o código fonte, é necessário seguir o Código de Conduta deste projeto.
 
