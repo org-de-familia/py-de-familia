@@ -1,6 +1,3 @@
-py-de-familia, a biblioteca deliciosa
-=====================================
-
 .. raw:: html
 
     <p align="center">
