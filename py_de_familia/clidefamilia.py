@@ -124,5 +124,5 @@ def entrypoint_de_familia(personagem_de_familia, frase_de_familia):
 
 
 if __name__ == '__main__':
-    configurar_autocomplete()
+    # configurar_autocomplete()
     entrypoint_de_familia()
