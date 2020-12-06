@@ -90,7 +90,7 @@ TODO
 Licença
 =======
 
-``py-de-família`` é uma biblioteca *open-source*. Todo o desenvolvimento foi feito sobre a Licença **Apaiche de Família 2.0**.
+``py-de-família`` é uma biblioteca *open-source*. Todo o desenvolvimento foi feito sobre a Licença **APAICHE-DE-FAMILIA-2.0**.
 
 Esta licença tem como restrição, a colaboração restrita dos Desenvolvedores atuantes no Projeto. É aceito apenas:
 
@@ -99,4 +99,4 @@ Esta licença tem como restrição, a colaboração restrita dos Desenvolvedores
 * Ursos; e
 * Lolitos.
 
-A licença é baseada nas licenças **papacú** e **cuquépau**, criadas respectivamente nas cidades de **Cú Pequeno** e **Pau Grande**, ambas localizadas no interior da Bahia.
+A licença é baseada nas licenças **PAPAKU** e **KUKÉPAU**, criadas respectivamente nas cidades de **Cú Pequeno** e **Pau Grande**.
