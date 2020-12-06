@@ -7,8 +7,8 @@
     </p>
 
     <p align="center">
-        <a href="https://badge.fury.io/py/py-de-família">
-            <img alt="Pypi version" src="https://badge.fury.io/py/py-de-família.svg">
+        <a href="https://badge.fury.io/py/py-de-familia">
+            <img alt="Pypi version" src="https://badge.fury.io/py/py-de-familia.svg">
         </a>
         <a href='https://py-de-familia.readthedocs.io/en/latest/?badge=latest'>
             <img src='https://readthedocs.org/projects/py-de-familia/badge/?version=latest' alt='Documentation Status' />
@@ -23,6 +23,8 @@
 ``py-de-família`` é uma CLI deliciosa, criada no intuíto de relaxar os Programadores de Família.
 
 Nela é possível ouvir diretamente do seu terminal, as frases relexantes do mestre Jailson Mendes e de outros personagens do universo PDF.
+
+.. end-of-readme-intro
 
 *Features* de Família
 =====================
@@ -67,7 +69,7 @@ Estrutura do Projeto de Família
     │   └── ...
     ├── LICENSE-DE-FAMILIA              # Descrição da Licença APAICHE-DE-FAMILIA-2.0
     ├── Makefile                        # Makefile de Família para extrair audios de família do youtube
-    ├── poetry.lock                     # Dependencias de Família Versionadas  
+    ├── poetry.lock                     # Dependencias de Família Versionadas
     ├── py_de_familia
     │   ├── ativos-de-familia
     │   │   ├── boliviano               # Audios do Boliviano de Família
