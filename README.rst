@@ -13,9 +13,6 @@
         <a href='https://py-de-familia.readthedocs.io/en/latest/?badge=latest'>
             <img src='https://readthedocs.org/projects/py-de-familia/badge/?version=latest' alt='Documentation Status' />
         </a>
-        <a href="https://codecov.io/gh/augustoliks/py-de-familia">
-          <img src="https://codecov.io/gh/augustoliks/py-de-familia/branch/main/graph/badge.svg?token=EHJKGJKW3T"/>
-        </a>
         <a href="https://www.codacy.com/gh/augustoliks/py-de-familia/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=augustoliks/py-de-familia&amp;utm_campaign=Badge_Grade">
             <img src="https://app.codacy.com/project/badge/Grade/2f6923d397794cec937347e9c792d1dc"/>
         </a>
