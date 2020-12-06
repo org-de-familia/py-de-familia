@@ -10,7 +10,6 @@
         <a href="https://badge.fury.io/py/py-de-família"><img alt="Pypi version" src="https://badge.fury.io/py/py-de-família.svg"></a>
     </p>
 
-
 =========
 
 É Essa Biblioteca Que Você Queria???
@@ -26,7 +25,7 @@ Nela é possível ouvir diretamente do seu terminal, as frases relexantes do mes
 Atualmente, é possível apreciar os aúdios relexantes dos seguintes personagens de família:
 
 +-------------------------------+----------------------------------+--------------------------------------------------------+
-| Personagem                    | Filmes                           | Biografia                                              |
+| Personagem de Família         | Filmes de Família                | Biografia de Família                                   |
 +===============================+==================================+========================================================+
 | Jailson Mendes de Família     | Trilogia Pai de Família          | https://desciclopedia.org/wiki/Pai_de_Fam%C3%ADlia     |
 +-------------------------------+----------------------------------+--------------------------------------------------------+
@@ -37,14 +36,12 @@ Atualmente, é possível apreciar os aúdios relexantes dos seguintes personagen
 | Boliviano de Família          | Princesa Demacol e o Boliviano   | http://desciclo.pedia.ws/wiki/Boliviano                |
 +-------------------------------+----------------------------------+--------------------------------------------------------+
 
-
 Instalação
 ==========
 
 .. code-block:: shell
 
     $ pip3 install py-de-familia
-
 
 Execução
 ========
@@ -80,7 +77,6 @@ Estrutura do Projeto de Família
         ├── __pycache__
         └── test_clidefamilia.py        # Testes unitários de Família, que seja pequeneninho mais que seja garantido
 
-
 Contribuições de Família
 ========================
 
@@ -88,12 +84,12 @@ Para contribuir para com o código fonte, é necessário seguir o Código de Con
 
 Para adicionar mais audios relexantes, basta utilizar o ``Makefile`` de familia. Este tem seções que utilizam os utilitários ``youtube-dl`` e ``ffmpeg`` para baixar e converter os audios respectivamente.
 
-Licença
-=======
+Licença de Família
+==================
 
 ``py-de-família`` é uma biblioteca *open-source*. Todo o desenvolvimento foi feito sobre a Licença **APAICHE-DE-FAMILIA-2.0**.
 
-Esta licença tem como restrição, a colaboração restrita dos Desenvolvedores atuantes no Projeto. É aceito apenas:
+Essa licença, tem como restrição, o tipo do Desenvolvedor atuante no o projeto. É aceito apenas:
 
 * Héteros;
 * Machos;
