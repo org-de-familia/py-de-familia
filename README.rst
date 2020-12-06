@@ -34,7 +34,6 @@ Atualmente, é possível apreciar os aúdios relexantes dos seguintes personagen
 +-------------------------------+----------------------------------+--------------------------------------------------------+
 
 - Features TODO:
-
     - Alexandre Senna de Família;
     - Polaco de Família;
     - Douglas Torres de Família;
@@ -43,7 +42,10 @@ Atualmente, é possível apreciar os aúdios relexantes dos seguintes personagen
 Instalação
 ==========
 
-TODO
+.. code-block:: shell
+
+    $ pip3 install py-de-familia
+
 
 Execução
 ========
