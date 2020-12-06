@@ -114,3 +114,8 @@ Contribuições de Família
 Para contribuir para com o código fonte, é necessário seguir o Código de Conduta deste projeto.
 
 Para adicionar mais audios relexantes, basta utilizar o ``Makefile`` de familia. Este tem seções que utilizam os utilitários ``youtube-dl`` e ``ffmpeg`` para baixar e converter os audios respectivamente.
+
+
+.. image:: https://api.codacy.com/project/badge/Grade/657c02a377f346068937a89d84b6e982
+   :alt: Codacy Badge
+   :target: https://app.codacy.com/gh/augustoliks/py-de-familia?utm_source=github.com&utm_medium=referral&utm_content=augustoliks/py-de-familia&utm_campaign=Badge_Grade
