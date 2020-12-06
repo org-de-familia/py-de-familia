@@ -1,5 +1,5 @@
-Bem vindo a documentação *fotospeed-watchdog*
-=============================================
+Bem vindo a documentação *py-de-familia*
+========================================
 
 .. toctree::
     :caption: Propriedades de Família
