@@ -40,7 +40,6 @@ Atualmente, é possível apreciar os aúdios relexantes dos seguintes personagen
 - Douglas Torres de Família;
 - Demacol de Família.
 
------
 Instalação
 ==========
 
