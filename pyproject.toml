@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "py-de-familia"
-version = "0.1.2"
+version = "0.1.3"
 description = "CLI deliciosa de família"
 homepage = "https://github.com/augustoliks/py-de-familia"
 authors = ["augustoliks <carlos.neto.dev@gmail.com>"]
@@ -17,8 +17,6 @@ classifiers = [
 python = "^3.7"
 click = "^7.1.2"
 playsound = "^1.2.2"
-vext = "^0.7.4"
-"vext.gi" = "^0.7.4"
 pytest = "^6.1.2"
 click_completion = "^0.5.2"
 pytest-cov = "^2.10.1"
