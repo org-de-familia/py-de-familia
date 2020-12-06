@@ -12,7 +12,7 @@
 
 =========
 
-**É essa *lib* que você queria???**
+**É essa biblioteca que você queria???**
 
 ``py-de-família`` é uma CLI deliciosa, criada no intuíto de relaxar os Programadores de Família.
 
