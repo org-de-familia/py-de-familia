@@ -37,11 +37,6 @@ Atualmente, é possível apreciar os aúdios relexantes dos seguintes personagen
 | Boliviano de Família          | Princesa Demacol e o Boliviano   | http://desciclo.pedia.ws/wiki/Boliviano                |
 +-------------------------------+----------------------------------+--------------------------------------------------------+
 
-- Features TODO:
-    - Alexandre Senna de Família;
-    - Polaco de Família;
-    - Douglas Torres de Família;
-    - Demacol de Família.
 
 Instalação
 ==========
