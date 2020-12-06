@@ -3,16 +3,12 @@ language: python
 python:
   - 3.7
 
-env:
-  global:
-    - secure: "<encrypted MYPYPI_USER=username>"
-    - secure: "<encrypted MYPYPI_PASS=p@ssword>"
-
 before_install:
   - pip install poetry
 
 install:
   - poetry install
+  - env
 
 script:
   - poetry run pytest tests/
