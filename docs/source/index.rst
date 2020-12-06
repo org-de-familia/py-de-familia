@@ -2,12 +2,12 @@ Bem vindo a documentação *fotospeed-watchdog*
 =============================================
 
 .. toctree::
-    :caption: Propriedades de Aplicação
+    :caption: Propriedades de Família
 
     files/README.rst
 
 .. toctree::
-    :caption: Release Notes
+    :caption: Release-Notes de Família
 
     files/RELEASE-NOTES.rst
 

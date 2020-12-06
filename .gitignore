@@ -4,4 +4,4 @@ dist/
 *.egg-info/
 .idea/
 public/
-docs/source/files/
+#docs/source/files/
