@@ -21,8 +21,8 @@ deploy:
   script: poetry publish -u $PYPI_USER -p $PYPI_PASS
   skip_cleanup: true
   on:
-#    tags: true
-    branch: main
+    tags: true
+    # branch: main
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
