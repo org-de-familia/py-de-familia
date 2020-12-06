@@ -86,7 +86,7 @@ Contribuições de Família
 
 Para contribuir para com o código fonte, é necessário seguir o Código de Conduta deste projeto.
 
-Para adicionar mais audios relexantes, basta utilizar o ``Makefile`` de familia. Este tem seções que utilizam os utilitários ``youtube-dl`` e ``ffmpeg`` para baixar e converter os audio respectivamente.
+Para adicionar mais audios relexantes, basta utilizar o ``Makefile`` de familia. Este tem seções que utilizam os utilitários ``youtube-dl`` e ``ffmpeg`` para baixar e converter os audios respectivamente.
 
 Licença
 =======
