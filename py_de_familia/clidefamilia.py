@@ -7,6 +7,15 @@ from typing import (
     Text,
     List
 )
+import os
+
+
+def configurar_autocomplete():
+    autocomple_de_familia = Path(
+        Path(__file__).parent,
+        'autocomplete-de-familia.sh'
+    )
+    os.system(f'{autocomple_de_familia.absolute()}')
 
 
 class ExcessaoDeFamilia(RuntimeError):
@@ -115,4 +124,5 @@ def entrypoint_de_familia(personagem_de_familia, frase_de_familia):
 
 
 if __name__ == '__main__':
+    configurar_autocomplete()
     entrypoint_de_familia()
