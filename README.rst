@@ -33,12 +33,12 @@ Atualmente, é possível apreciar os aúdios relexantes dos seguintes personagen
 | Paulo Guina de Família        | Trilogia Pai de Família          | https://desciclopedia.org/wiki/Paulo_Guina             |
 +-------------------------------+----------------------------------+--------------------------------------------------------+
 
-* Features em Desenvolvimento:
+* Features TODO:
 
-- Alexandre Senna de Família;
-- Polaco de Família;
-- Douglas Torres de Família;
-- Demacol de Família.
+    - Alexandre Senna de Família;
+    - Polaco de Família;
+    - Douglas Torres de Família;
+    - Demacol de Família.
 
 Instalação
 ==========
