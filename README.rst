@@ -10,9 +10,8 @@
         <a href="https://badge.fury.io/py/py-de-família"><img alt="Pypi version" src="https://badge.fury.io/py/py-de-família.svg"></a>
     </p>
 
-=========
-
-**É essa biblioteca que você queria???**
+É essa biblioteca que você queria???
+====================================
 
 ``py-de-família`` é uma CLI deliciosa, criada no intuíto de relaxar os Programadores de Família.
 
