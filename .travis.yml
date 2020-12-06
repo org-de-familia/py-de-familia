@@ -12,3 +12,15 @@ install:
 
 script:
   - poetry run pytest tests/
+
+
+before_deploy:
+  - poetry build
+
+deploy:
+  provider: script
+  script: poetry publish -u $PYPI_USER -p $PYPI_PASS
+  skip_cleanup: true
+#  on:
+#    tags: true
+
