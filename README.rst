@@ -51,7 +51,6 @@ Execução
 
 TODO
 
-
 Estrutura do Projeto de Família
 ===============================
 
@@ -82,10 +81,12 @@ Estrutura do Projeto de Família
         └── test_clidefamilia.py        # Testes unitários de Família, que seja pequeneninho mais que seja garantido
 
 
-Como Contribuir com a Família
+Como Contribuir Com a Família
 =============================
 
-TODO
+Para contribuir para com o código fonte, é necessário seguir o Código de Conduta deste projeto.
+
+Para adicionar mais audios relexantes, basta utilizar o ``Makefile`` de familia. Este tem seções que utilizam os utilitários ``youtube-dl`` e ``ffmpeg`` para baixar e converter os audio respectivamente.
 
 Licença
 =======
