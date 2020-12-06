@@ -12,17 +12,31 @@
 
 =========
 
-``py-de-familia`` é uma CLI deliciosa, criada no intuíto de relexar os programadores.
+``py-de-familia`` é uma CLI deliciosa, criada no intuíto de relaxar os Programadores de Família.
 
-Nela é possível ouvir diretamente do seu terminal, as frases relexantes do mestre Jailson Mendes e dos personagens do universo PDF. 
-
-
+Nela é possível ouvir diretamente do seu terminal, as frases relexantes do mestre Jailson Mendes e de outros personagens do universo PDF. 
 
 Features
 ========
 
-TODO
+Atualmente, é possível apreciar os aúdios relexantes dos seguintes personagens de família:
 
++-------------------------------+----------------------------------+--------------------------------------------------------+
+| Personagem                    | Filmes                           | Biografia                                              |
++===============================+----------------------------------+--------------------------------------------------------+
+| Boliviano de Familia          | Princesa Demacol e o Boliviano;  | http://desciclo.pedia.ws/wiki/Boliviano                |
+| Jailson Mendes de Família     | Trilogia Pai de Família;         | https://desciclopedia.org/wiki/Pai_de_Fam%C3%ADlia     |
+| Kauan Desu de Família         | Trilogia Pai de Família;         | https://desciclopedia.org/wiki/Kauan_Desu              |
+| Paulo Guina de Família        | Trilogia Pai de Família.         | https://desciclopedia.org/wiki/Paulo_Guina             |
++-------------------------------+----------------------------------+--------------------------------------------------------+
+
+* Features em Desen
+
+- Alexandre Senna de Familia;
+- Polaco de Familia;
+- 
+
+-----
 Instalação
 ==========
 
