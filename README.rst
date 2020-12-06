@@ -99,7 +99,7 @@ Licença de Família
 
 ``py-de-família`` é uma biblioteca *open-source*. Todo o desenvolvimento foi feito sobre a Licença **APAICHE-DE-FAMILIA-2.0**.
 
-Essa licença, tem como restrição, o tipo do Desenvolvedor atuante no o projeto. É aceito apenas:
+Essa licença, tem como restrição, o tipo do Desenvolvedor atuante no projeto. É aceito apenas:
 
 * Héteros;
 * Machos;
