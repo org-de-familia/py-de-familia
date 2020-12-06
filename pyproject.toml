@@ -4,8 +4,14 @@ version = "0.1.1"
 description = "CLI deliciosa de família"
 homepage = "https://github.com/augustoliks/py-de-familia"
 authors = ["augustoliks <carlos.neto.dev@gmail.com>"]
+maintainers = ["augustoliks <carlos.neto.dev@gmail.com>"]
 readme = "README.rst"
-license = "Apaiche de Família"
+license = "APAICHE-DE-FAMILIA-2.0"
+documentation = "https://py-de-familia.readthedocs.io/en/latest/?badge=latest"
+keywords = ["cli", "relaxar", "ai", "macho"]
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
