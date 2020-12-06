@@ -12,7 +12,7 @@
 
 =========
 
-**É essa lib que você queria???**
+**É essa *lib* que você queria???**
 
 ``py-de-família`` é uma CLI deliciosa, criada no intuíto de relaxar os Programadores de Família.
 
@@ -54,17 +54,48 @@ Execução
 
 TODO
 
-Como Contribuir
-===============
+
+Estrutura do Projeto de Família
+===============================
+
+::
+
+    ├── CODE-OF-CONDUCT-DE-FAMILIA.rst  # Código de conduta de Família
+    ├── docs                            # Documentação de Família
+    │   └── ...
+    ├── LICENSE-DE-FAMILIA              # Descrição da Licença APAICHE-DE-FAMILIA-2.0
+    ├── Makefile                        # Makefile de Família para extrair audios de família do youtube
+    ├── poetry.lock                     # Dependencias de Família Versionadas  
+    ├── py_de_familia
+    │   ├── ativos-de-familia
+    │   │   ├── boliviano               # Audios do Boliviano de Família
+    │   │   │   └── ...
+    │   │   ├── jailson                 # Audios do Jailson Mendes de Família
+    │   │   │   └── ...
+    │   │   ├── kauan-desu              # Audios do Kauan Desu de Família
+    │   │   │   └── ...
+    │   │   └── pau-guina               # Audios do Paulo Guina de Família
+    │   │       └── ...
+    │   ├── autocomplete-de-familia.sh  # Shell Script Para habilitar o auto-complete
+    │   └── clidefamilia.py             # Código Fonte de Família
+    ├── pyproject.toml                  # Metadados do projeto de família
+    ├── README.rst                      # Documentação de família
+    └── tests                           # Testes de Família
+        ├── __pycache__
+        └── test_clidefamilia.py        # Testes unitários de Família, que seja pequeneninho mais que seja garantido
+
+
+Como Contribuir com a Família
+=============================
 
 TODO
 
-Licensa
+Licença
 =======
 
 ``py-de-família`` é uma biblioteca *open-source*. Todo o desenvolvimento foi feito sobre a Licença **Apaiche de Família 2.0**.
 
-Esta licensa tem como restrição, a colaboração restrita dos Desenvolvedores atuantes no Projeto. É aceito apenas:
+Esta licença tem como restrição, a colaboração restrita dos Desenvolvedores atuantes no Projeto. É aceito apenas:
 
 * Héteros;
 * Machos;
