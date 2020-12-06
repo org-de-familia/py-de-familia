@@ -23,3 +23,6 @@ deploy:
   on:
 #    tags: true
     branch: main
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
