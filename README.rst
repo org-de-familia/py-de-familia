@@ -8,8 +8,9 @@
 
     <p align="center">
         <a href="https://badge.fury.io/py/py-de-familia">
-            <img alt="Pypi version" src="https://badge.fury.io/py/py-de-familia.svg">
+            <img src="https://badge.fury.io/py/py-de-familia.svg" alt="PyPI version" height="18">
         </a>
+
         <a href='https://py-de-familia.readthedocs.io/en/latest/?badge=latest'>
             <img src='https://readthedocs.org/projects/py-de-familia/badge/?version=latest' alt='Documentation Status' />
         </a>
