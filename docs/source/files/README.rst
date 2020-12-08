@@ -4,19 +4,19 @@
     :target: https://badge.fury.io/py/py-de-familia
 
 .. image:: https://readthedocs.org/projects/py-de-familia/badge/?version=latest
-    :target: https://py-de-familia.readthedocs.io/en/latest/?badge=latest
+    :target: https://py-de-familia.readthedocs.io/pt/latest/
 
 .. image:: https://app.codacy.com/project/badge/Grade/2f6923d397794cec937347e9c792d1dc
     :target: https://www.codacy.com/gh/augustoliks/py-de-familia/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=augustoliks/py-de-familia&amp;utm_campaign=Badge_Grade
-
-.. image:: https://img.shields.io/badge/license-APAICHE--DE--FAMILIA--2.0-blue
-    :target: https://github.com/augustoliks/py-de-familia/blob/main/LICENSE-DE-FAMILIA
 
 .. image:: https://codecov.io/gh/augustoliks/py-de-familia/branch/main/graph/badge.svg?token=EHJKGJKW3T
     :target: https://codecov.io/gh/augustoliks/py-de-familia
 
 .. image:: https://travis-ci.com/augustoliks/py-de-familia.svg?branch=main
     :target: https://travis-ci.com/github/augustoliks/py-de-familia
+
+.. image:: https://img.shields.io/badge/license-APAICHE--DE--FAMILIA--2.0-blue
+    :target: https://github.com/augustoliks/py-de-familia/blob/main/LICENSE-DE-FAMILIA
 
 =========
 
@@ -52,7 +52,7 @@ Instalação
 .. code-block:: shell
 
     # Instalação da biblioteca de familia
-    $ pip3 install py-de-familia
+    $ pip3 install py-de-familia --user
 
     # Habilitando o autocomplete de familia
     $ eval "$(_PY_DE_FAMILIA_COMPLETE=source_bash py-de-familia)"
@@ -60,7 +60,7 @@ Instalação
 Execução
 ========
 
-TODO
+.. image:: https://github.com/augustoliks/py-de-familia/blob/main/docs/source/_static/execucao.gif?raw=true
 
 Estrutura do Projeto de Família
 ===============================
