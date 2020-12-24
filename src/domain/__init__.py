@@ -1,21 +1,8 @@
-"""o código é pequeninho mais é garantido"""
-
-from playsound import playsound
-import click
 from pathlib import Path
 from typing import (
     Text,
     List
 )
-import os
-
-
-def configurar_autocomplete():
-    autocomple_de_familia = Path(
-        Path(__file__).parent,
-        'autocomplete-de-familia.sh'
-    )
-    os.system(f'{autocomple_de_familia.absolute()}')
 
 
 class ExcessaoDeFamilia(RuntimeError):
@@ -97,32 +84,3 @@ def listar_frases_de_familia(personagem_de_familia) -> List[Text]:
     for frase_de_familia in diretorio_de_familia.iterdir():
         frases_de_familia.append(frase_de_familia.stem)
     return frases_de_familia
-
-
-@click.command()
-@click.option(
-    '-p',
-    '--personagem-de-familia',
-    default='jailson',
-    help='Personagem de Família',
-    type=click.Choice(listar_personagens_de_familia()),
-    autocompletion=autocompletar_personagem_de_familia
-)
-@click.option(
-    '-f',
-    '--frase-de-familia',
-    default='ai',
-    help='Frase de Família',
-    autocompletion=autocompletar_frase_de_familia
-)
-def entrypoint_de_familia(personagem_de_familia, frase_de_familia):
-    audio = obter_audio_de_familia(
-        personagem_de_familia,
-        frase_de_familia
-    )
-    playsound(audio)
-
-
-if __name__ == '__main__':
-    # configurar_autocomplete()
-    entrypoint_de_familia()

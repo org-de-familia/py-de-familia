@@ -20,6 +20,8 @@ playsound = "^1.2.2"
 pytest = "^6.1.2"
 click_completion = "^0.5.2"
 pytest-cov = "^2.10.1"
+python-telegram-bot = "^13.1"
+dynaconf = "^3.1.2"
 
 [tool.poetry.scripts]
 py-de-familia = "py_de_familia.clidefamilia:entrypoint_de_familia"

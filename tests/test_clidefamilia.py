@@ -1,16 +1,16 @@
 # testes unitários de familia
 
-from py_de_familia import clidefamilia
+from py_de_familia import cli
 
 
 def test_listar_personagens_de_familia():
-    obtido = clidefamilia.listar_personagens_de_familia()
+    obtido = cli.listar_personagens_de_familia()
     esperado = ['pau-guina', 'boliviano', 'kauan-desu', 'jailson']
     assert sorted(esperado) == sorted(obtido)
 
 
 def test_listar_frases_de_familia():
-    obtido = clidefamilia.listar_frases_de_familia('jailson')
+    obtido = cli.listar_frases_de_familia('jailson')
     esperado = [
         'ai',
         'ai-eu-nao-resisto',
